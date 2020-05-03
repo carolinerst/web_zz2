@@ -1,0 +1,311 @@
+@font-face { 	
+    font-family: "ma_police_calibri"; 	
+    src: url('../font/calibri.ttf'); 
+}
+
+
+@font-face {    
+    font-family: "eraslght"; 
+    src: url('../font/ERASLGHT.TTF');
+}
+
+.myButton {
+
+    font-family:'Eras';
+
+    margin:5px 10px 5px 10px;
+
+    -moz-box-shadow: 0px 10px 9px -7px #404242;
+
+    -webkit-box-shadow: 0px 10px 9px -7px #404242;
+
+    box-shadow: 0px 10px 9px -7px #404242;
+
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff5e7e), color-stop(1, #780000));
+
+    background:-moz-linear-gradient(top, #ff5e7e 5%, #780000 100%);
+
+    background:-webkit-linear-gradient(top, #ff5e7e 5%, #780000 100%);
+
+    background:-o-linear-gradient(top, #ff5e7e 5%, #780000 100%);
+
+    background:-ms-linear-gradient(top, #ff5e7e 5%, #780000 100%);
+
+    background:linear-gradient(to bottom, #ff5e7e 5%, #780000 100%);
+
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5e7e', endColorstr='#780000',GradientType=0);
+
+    background-color:#ff5e7e;
+
+    -moz-border-radius:40px;
+
+    -webkit-border-radius:40px;
+
+    border-radius:40px;
+
+    display:inline-block;
+
+    cursor:pointer;
+
+    color:#ffffff;
+
+    font-family:Trebuchet MS;
+
+    font-size:14px;
+
+    padding:3px 10px;
+
+    text-decoration:none;
+
+    text-shadow:0px 1px 0px #4d484d;
+
+}
+
+.myButton:hover {
+
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #780000), color-stop(1, #ff5e7e));
+
+    background:-moz-linear-gradient(top, #780000 5%, #ff5e7e 100%);
+
+    background:-webkit-linear-gradient(top, #780000 5%, #ff5e7e 100%);
+
+    background:-o-linear-gradient(top, #780000 5%, #ff5e7e 100%);
+
+    background:-ms-linear-gradient(top, #780000 5%, #ff5e7e 100%);
+
+    background:linear-gradient(to bottom, #780000 5%, #ff5e7e 100%);
+
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#780000', endColorstr='#ff5e7e',GradientType=0);
+
+    background-color:#780000;
+
+}
+
+.myButton:active {
+
+    position:relative;
+
+    top:1px;
+
+}
+
+
+
+#titre
+{
+    width: 70%;
+    height: 175px;
+    background-color: #EAE5DF;
+    float: left;
+    font-size: 50px;
+    font-family: 'eraslght'; 
+    font-weight: bold;
+    color: #474747;
+    vertical-align: middle;
+}
+
+h1{
+    font-family: 'eraslght'; 
+    font-weight: bold;  
+}
+
+h2{
+    font-family: 'ma_police_calibri';
+    color: #474747;
+    font-size: 12px;
+}
+
+h3{
+    font-family: : 'ma_police_calibri';
+    color: #861825;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+
+
+#titre img
+{
+    width: 20%;
+    height: 95%;
+}
+
+
+#authentification
+{
+    width: 30%;
+    height: 175px;
+    background-color: #8A5D1D;
+    float: left;
+    text-align: center;
+    color: white;
+
+}
+
+#authentification h1
+{
+    font-size: 20px;
+}
+
+#contenu
+{
+    width: 70%;
+    height: 500px;
+    background-color: #EAE5DF;
+    float: left;
+    clear: both;
+}
+
+#titre_panier 
+{
+    width: 100%;
+    float: left;
+    height: 65px;
+    padding: 5px;
+    font-family: 'eraslght'; 
+    font-size: x-large;
+    font-style: bold;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 1px;
+    border-bottom: solid 2px #FFFFFF;
+
+}
+
+#libelle_article
+{
+    width: 100%;
+    float: left;
+    font-family: 'ma_police_calibri'; 
+    font-style: bold;
+    font-size: large;
+    margin-left: 2px;
+    color: #967878;
+
+}
+
+#prix
+{
+    width: 100%;
+    text-align: right;
+    font-family: 'ma_police_calibri'; 
+    font-style: bold;
+    font-size: x-large;
+    color: #FFFFFF;
+}
+
+#total
+{
+    width: 100%;
+    text-align: right;
+    font-family: 'ma_police_calibri'; 
+    font-style: bold;
+    font-size: x-large;
+    color: #FFFFFF;
+    margin-top: 1px;
+    border-top: solid 2px #FFFFFF;
+}
+   
+
+#panier
+{
+    width: 30%;
+    height: 500px;
+    background-color: #861825;
+    float: left;
+}
+
+#pied_de_page
+{
+    width: 100%;
+    height: 50px;
+    background-color: #8A5D1D;
+    clear: both;
+    text-align: center;
+    font-family: 'ma_police_calibri';
+    color: #FFFFFF;
+}
+
+a.nounderline:link
+{
+    text-decoration:none;
+    color: #474747;
+    font-size: bold;
+
+}
+
+.famille
+{
+    float: left;
+    margin: 10px;
+    border: solid 1px black;
+    background-color: white;
+    font-family: 'ma_police_calibri';
+    padding: 2px;
+}
+.article
+{
+    float: left;
+    margin: 10px;
+    border: solid 1px #8A5D1D;
+    background-color: white;
+    padding: 2px;
+    padding-left: 2px;
+    border-radius: 10%;
+}
+
+.article img
+{
+    float: left;
+}
+.article .libelle
+{
+    float: left;
+}
+
+.article .bouton
+{
+    float: left;
+}
+
+.libelle
+{
+    text-align: center;
+}
+
+.famille img
+{
+    margin: 10px;
+}
+
+@media screen and (max-width: 580px){
+    #titre
+    {
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+    #authentification
+    {
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+    #contenu
+    {
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+    #panier
+    {
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+    #pied_de_page
+    {
+        display: none;
+    }
+}
