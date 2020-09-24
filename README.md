@@ -2,7 +2,7 @@
 
 Ce site web a été réalisé en CSS et PHP. Il s'agit d'un site de ventes en ligne avec gestion d'un panier de commande. 
 
-! [Top Modélisme] (img_git/top_modelisme.png) 
+![Top Modélisme](img_git/top_modelisme.png) 
 
 NB: Le design du site m'a été imposé par mon professeur. 
 
